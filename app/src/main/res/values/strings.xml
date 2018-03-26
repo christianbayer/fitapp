@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FitApp</string>
+    <string name="new_circuit">Novo Circuito</string>
+    <string name="select_circuit">Selecionar circuito</string>
+    <string name="inp_new_circuit_name">Nome</string>
+    <string name="inp_new_circuit_description">Descrição</string>
+    <string name="btn_save">Salvar</string>
+    <string name="empty_list_text">Nenhum dado encontrado</string>
+</resources>
