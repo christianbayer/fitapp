@@ -4,28 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
     tools:context="com.example.christian.fitapp2.SelectCircuit">
 
-    <!--<ListView -->
-        <!--android:id="@android:id/list"-->
-        <!--android:layout_width="fill_parent"-->
-        <!--android:layout_height="fill_parent"/>-->
-
-        <!--android:id="@android:id/list"-->
     <ListView
-        android:id="@+id/list_view"
+        android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:dividerHeight="1dp"
-        android:padding="10dp"
-        />
-    <!--<ListView-->
-        <!--android:id="@+id/android:list"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent"-->
-        <!--android:layout_weight="1"-->
-        <!--android:background="#FFFFFF"-->
-        <!--android:drawSelectorOnTop="false" />-->
+        android:padding="10dp" />
 
     <TextView
         android:id="@+id/empty_list"

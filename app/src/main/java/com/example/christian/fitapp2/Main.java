@@ -28,7 +28,19 @@ public class Main extends AppCompatActivity {
 
     private void initComponents() {
         this.btnNewCircuit = (Button) findViewById(R.id.btnNewCircuit);
+        this.btnNewCircuit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                newCircuit(v);
+            }
+        });
         this.btnSelectCircuit = (Button) findViewById(R.id.btnSelectCircuit);
+        this.btnSelectCircuit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                selectCircuit(v);
+            }
+        });
     }
 
     public void newCircuit(View view) {

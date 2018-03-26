@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main">
+        <activity
+            android:name=".Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +20,9 @@
         <activity
             android:name=".NewCircuit"
             android:parentActivityName=".Main" />
-        <activity android:name=".SelectCircuit"></activity>
+        <activity
+            android:name=".SelectCircuit"
+            android:parentActivityName=".Main" />
     </application>
 
 </manifest>
